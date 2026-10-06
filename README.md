@@ -1,4 +1,4 @@
-# JEV Use Cases
+# Learning Jev
 
 Hands-on projects for learning **Jev**, TypeSafe's decision model, one level at a time.
 Jev does not write text. You send it a `state` (some text) plus typed questions
