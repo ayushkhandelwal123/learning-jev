@@ -10,7 +10,7 @@ Jev does not write text. You send it a `state` (some text) plus typed questions
 |-------|--------|----------------|--------|
 | 1 | [`level-1-post-moderation`](level-1-post-moderation/) | The three question types on forum posts | Done |
 | 2 | [`level-2-moderation-queue`](level-2-moderation-queue/) | Thresholds and a human-review queue | Done |
-| 3 | [`level-3-reply-drafting`](level-3-reply-drafting/) | Jev routes, an LLM writes the response | |
+| 3 | [`level-3-reply-drafting`](level-3-reply-drafting/) | Jev routes, an LLM writes the response | Done |
 | 4 | _coming_ | Evaluation against hand-labelled data | |
 | 5 | _coming_ | Async, retries, rate limits, caching | |
 | 6 | _coming_ | Jev as a router node in LangGraph | |
