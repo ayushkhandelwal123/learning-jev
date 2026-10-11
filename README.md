@@ -10,8 +10,8 @@ Jev does not write text. You send it a `state` (some text) plus typed questions
 |-------|--------|----------------|--------|
 | 1 | [`level-1-post-moderation`](level-1-post-moderation/) | The three question types on forum posts | Done |
 | 2 | [`level-2-moderation-queue`](level-2-moderation-queue/) | Thresholds and a human-review queue | Done |
-| 3 | [`level-3-reply-drafting`](level-3-reply-drafting/) | Jev routes, an LLM writes the response | Done |
-| 4 | _coming_ | Evaluation against hand-labelled data | |
+| 3 | [`level-3-reply-drafting`](level-3-reply-drafting/) | Jev routes, a Groq LLM drafts the message | Done |
+| 4 | [`level-4-evaluation`](level-4-evaluation/) | Evaluation and threshold tuning on labelled data | Done |
 | 5 | _coming_ | Async, retries, rate limits, caching | |
 | 6 | _coming_ | Jev as a router node in LangGraph | |
 
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 copy .env.example .env
 ```
 
-Open `.env` and replace `your_api_key_here` with your real TypeSafe API key.
+Open `.env` and fill in your real keys. Level 3 onwards also needs `GROQ_API_KEY` and `GROQ_MODEL`.
 
 If PowerShell blocks the activation script, run this once and try again:
 

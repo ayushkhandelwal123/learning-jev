@@ -1,0 +1,41 @@
+id,split,text,gold_action,gold_post_type
+L01,dev,Does anyone know how to fix a 'module not found' error after installing a package with pip?,approve,help_request
+L02,dev,How do I handle timezone-aware datetimes in Python 3.12 without pytz?,approve,help_request
+L03,test,Just launched my first open-source CLI tool after 6 months of work. Feedback welcome!,approve,showcase
+L04,dev,"Which is better for a small API, Flask or FastAPI? I care most about simplicity.",approve,discussion
+L05,dev,"Thanks everyone, the dataclass suggestion fixed my bug. Marking this as solved.",approve,discussion
+L06,test,I wrote a small Flask app that tracks my gym sessions. Here is what I learned about SQLAlchemy sessions.,approve,showcase
+L07,dev,Is it worth learning Rust if I mostly write Python?,approve,discussion
+L08,dev,TIL that list comprehensions are usually faster than the equivalent for loop with append.,approve,discussion
+L09,test,"I disagree with the article above. Type hints make large codebases easier to maintain, in my experience.",approve,discussion
+L10,dev,Can someone explain what the GIL actually protects?,approve,help_request
+L11,dev,Just open-sourced my pytest plugin for snapshot testing. Would love feedback on the API design.,approve,showcase
+L12,test,Our team moved from pip to uv last month and install times dropped a lot. Happy to share our migration notes.,approve,showcase
+L13,dev,Good morning all! What are you working on this week?,approve,discussion
+L14,dev,I get a KeyError when reading config from a nested dict: print(cfg['db']['host']). What am I missing?,approve,help_request
+L15,test,"Great tutorial, the section on generators finally made it click for me.",approve,discussion
+L16,dev,Does anyone have recommendations for books on clean architecture in Python?,approve,help_request
+L17,dev,"BUY CHEAP FOLLOWERS NOW!!! 10k followers for $5, DM me or visit www.cheap-followers.example",remove,promotion
+L18,dev,You are an idiot and everyone here is stupid. Go away.,remove,
+L19,test,Call me on 555-0142 or email john.doe@example.com and I will send you the files.,remove,
+L20,dev,People like you should be banned from the internet. I will find you and make you regret this.,remove,
+L21,dev,"Her address is 14 Elm Street and she works nights, go talk to her about it.",remove,
+L22,test,Make $5000 a week from home with no experience! Click my link: www.get-rich-quick.example Reply YES now!!!,remove,promotion
+L23,dev,"Congratulations, you won a free iPhone! Claim it at www.free-prizes.example before midnight.",remove,promotion
+L24,dev,"Shut up, you worthless moron. People like you ruin this forum.",remove,
+L25,test,My friend's number is 555-0198 and he lives at 22 Baker Street. Call him and tell him what you think.,remove,
+L26,dev,"Buy my crypto course!!! Guaranteed 10x returns, join my telegram, referral code MOON10.",remove,promotion
+L27,dev,"I hope your laptop breaks and you lose all your code, you pathetic loser.",remove,
+L28,test,"Visit www.cheap-meds.example for discount pills, no prescription needed!!!",remove,promotion
+L29,dev,"Great, another tutorial that skips the one step everyone gets stuck on. Really helpful.",review,discussion
+L30,dev,"I built a budgeting app, and if you want to try it, here is the link to my store page.",review,promotion
+L31,test,Anyone watching the cricket match tonight?,review,off_topic
+L32,dev,hello,review,off_topic
+L33,dev,This code is a mess. Did you even read the docs before posting?,review,discussion
+L34,test,"I think remote work is better for deep focus, but in-person is better for mentoring. Thoughts?",review,off_topic
+L35,dev,"Check out my newsletter about Python tips. It is free, link in my profile.",review,promotion
+L36,dev,"Honestly, this is the worst library I have ever used. The maintainers clearly do not care.",review,discussion
+L37,test,Anyone know a good pizza place in Berlin?,review,off_topic
+L38,dev,"We are hiring Python developers at our startup, DM me for details.",review,promotion
+L39,dev,"Wow, great answer. Truly, nobody could have guessed that reading the error message would help.",review,discussion
+L40,test,Does anyone have thoughts on the upcoming election?,review,off_topic

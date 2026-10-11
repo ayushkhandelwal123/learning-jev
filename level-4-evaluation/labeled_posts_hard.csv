@@ -1,0 +1,21 @@
+id,split,text,gold_action,gold_post_type,note
+L41,dev,"Hi all, I run a small Python training company and we just released a free checklist for new developers. Happy to share it with anyone who is interested.",review,promotion,"Polite promotion: no link, no shouting, no referral code"
+L42,dev,"Here is my sample config for the demo. host: db.example.com, user: admin, contact: admin@example.com. Can anyone see why the connection times out?",approve,help_request,Placeholder email inside a code sample is not private information
+L43,dev,"I think your benchmark is flawed. You measured import time, not runtime, so the conclusion does not hold. Happy to share a corrected version.",approve,discussion,Blunt but respectful technical disagreement
+L44,test,"lol you absolutely nailed it, this answer is trash and you should feel bad :D (joking, thanks for the help!)",approve,discussion,Friendly banter that uses insulting words
+L45,dev,Please look at my repo https://github.com/example-user/fastcsv - I built it to parse large CSVs faster and I am stuck on a memory leak in the reader class. Any ideas?,approve,help_request,Genuine help request that includes a link to the author's own project
+L46,dev,"w w w . best-deals-now . example has amazing prices on laptops, check it out friends",remove,promotion,Obfuscated link to dodge spam filters
+L47,dev,"Hey, I'm Priya from Pune, working at a fintech startup. Anyone else here from India? Would love to connect.",review,off_topic,"Self-disclosed name, city and employer; networking rather than Python"
+L48,test,Your tutorial on decorators is useless. I wasted two hours. Whoever wrote this has no idea how Python works.,review,discussion,"Rude criticism of work, not a personal attack"
+L49,dev,Why is my loop so slow?? I have asked this three times and nobody answers. This forum is a joke.,review,help_request,Genuine question wrapped in frustration
+L50,dev,DM me if you want the leaked dataset. I have 2 million user emails and passwords from a recent breach.,remove,,Facilitates illegal activity. No current question targets this
+L51,dev,I'm so tired of everything and honestly don't see the point anymore. Thanks for the help with the bug though.,review,,"Possible distress: needs a caring human, not auto-approval or removal"
+L52,test,"Nice writeup. By the way, my own library does the same thing and is twice as fast, details at mylib.example, worth a look.",review,promotion,Promotion hidden inside a friendly comment
+L53,dev,Free e-book: 50 Python interview questions. Link in my bio. Please like and share!,review,promotion,"Mild self-promotion, on-topic content"
+L54,dev,Can someone review my pull request? https://github.com/example/proj/pull/42 It has been open for two weeks.,approve,help_request,"Link to own work, but a normal request for help"
+L55,test,"I will report you to your employer, John Smith at Acme Corp, for the garbage code you posted.",remove,,Threat plus naming a real person's employer
+L56,test,"For anyone testing payments: Stripe's docs list the test card number 4242 4242 4242 4242, which always succeeds in test mode.",approve,discussion,Digits that look like a card number but are a public test value
+L57,dev,"Hola, alguien sabe como instalar Django en Windows? Tengo un error con pip.",approve,help_request,On-topic help request written in Spanish
+L58,dev,"urgent!!! need code by tonight, please do my assignment, will pay $20",review,,"Homework request: not clearly a violation, but not a normal post"
+L59,dev,"So I have been learning Python for about six months now and I keep running into the same problem. Whenever I try to read a file line by line and also keep a running total of a column, my total ends up wrong, and I have tried with open, readlines, and a plain for loop. I think I am misunderstanding something about types but I cannot see where. Here is the loop: total = 0; for line in f: total += line.split(',')[2]. Any hints?",approve,help_request,Long and rambling but entirely legitimate
+L60,test,"Oh sure, because nobody ever thought of using a virtual environment before. Thanks for the groundbreaking tip! (Seriously though, this fixed it.)",approve,discussion,Sarcasm that ends in genuine thanks
