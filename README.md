@@ -12,7 +12,7 @@ Jev does not write text. You send it a `state` (some text) plus typed questions
 | 2 | [`level-2-moderation-queue`](level-2-moderation-queue/) | Thresholds and a human-review queue | Done |
 | 3 | [`level-3-reply-drafting`](level-3-reply-drafting/) | Jev routes, a Groq LLM drafts the message | Done |
 | 4 | [`level-4-evaluation`](level-4-evaluation/) | Evaluation and threshold tuning on labelled data | Done |
-| 5 | _coming_ | Async, retries, rate limits, caching | |
+| 5 | [`level-5-production`](level-5-production/) | Async batching, retries, rate limits, caching, fail-safe errors | Done |
 | 6 | _coming_ | Jev as a router node in LangGraph | |
 
 ## One-time setup (Windows, PowerShell)
