@@ -13,7 +13,7 @@ Jev does not write text. You send it a `state` (some text) plus typed questions
 | 3 | [`level-3-reply-drafting`](level-3-reply-drafting/) | Jev routes, a Groq LLM drafts the message | Done |
 | 4 | [`level-4-evaluation`](level-4-evaluation/) | Evaluation and threshold tuning on labelled data | Done |
 | 5 | [`level-5-production`](level-5-production/) | Async batching, retries, rate limits, caching, fail-safe errors | Done |
-| 6 | _coming_ | Jev as a router node in LangGraph | |
+| 6 | [`level-6-langgraph-router`](level-6-langgraph-router/) | Jev as a router node in LangGraph, with human approval | Done |
 
 ## One-time setup (Windows, PowerShell)
 
@@ -26,7 +26,7 @@ pip install -r requirements.txt
 copy .env.example .env
 ```
 
-Open `.env` and fill in your real keys. Level 3 onwards also needs `GROQ_API_KEY` and `GROQ_MODEL`.
+Open `.env` and fill in your real keys. Level 3 onwards also needs `GROQ_API_KEY` and `GROQ_MODEL`. Re-run `pip install -r requirements.txt` whenever a level adds packages (Level 6 adds LangGraph).
 
 If PowerShell blocks the activation script, run this once and try again:
 
